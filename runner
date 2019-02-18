@@ -1,0 +1,72 @@
+#!/bin/bash
+chmod +x kwic3.py
+./kwic3.py < tests/in02.txt > tstout.txt
+diff tstout.txt tests/out02.txt
+
+./kwic3.py < tests/in03.txt > tstout.txt
+diff tstout.txt tests/out03.txt
+
+./kwic3.py < tests/in04.txt > tstout.txt
+diff tstout.txt tests/out04.txt
+
+./kwic3.py < tests/in05.txt > tstout.txt
+diff tstout.txt tests/out05.txt
+
+./kwic3.py < tests/in06.txt > tstout.txt
+diff tstout.txt tests/out06.txt
+
+./kwic3.py < tests/in07.txt > tstout.txt
+diff tstout.txt tests/out07.txt
+
+./kwic3.py < tests/in08.txt > tstout.txt
+diff tstout.txt tests/out08.txt
+
+./kwic3.py < tests/in09.txt > tstout.txt
+diff tstout.txt tests/out09.txt
+
+./kwic3.py < tests/in10.txt > tstout.txt
+diff tstout.txt tests/out10.txt
+
+./kwic3.py < tests/in11.txt > tstout.txt
+diff tstout.txt tests/out11.txt
+
+./kwic3.py < tests/in12.txt > tstout.txt
+diff tstout.txt tests/out12.txt
+
+./kwic3.py < tests/in13.txt > tstout.txt
+diff tstout.txt tests/out13.txt
+
+./kwic3.py < tests/in14.txt > tstout.txt
+diff tstout.txt tests/out14.txt
+
+./kwic3.py < tests/in15.txt > tstout.txt
+diff tstout.txt tests/out15.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
